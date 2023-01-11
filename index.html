@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+<title>About Prathmesh</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style1.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #000;
+        color: #eee;
+    }
+
+    .container {
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container p {
+        font-size: 3rem;
+        padding: 0.5rem;
+        font-weight: bold;
+        letter-spacing: 0.1rem;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .container p span.typed-text {
+        font-weight: normal;
+        color: #dd7732;
+    }
+
+    .container p span.cursor {
+        display: inline-block;
+        background-color: #ccc;
+        margin-left: 0.1rem;
+        width: 3px;
+        animation: blink 1s infinite;
+    }
+
+    .container p span.cursor.typing {
+        animation: none;
+    }
+
+    @keyframes blink {
+        0% {
+            background-color: #ccc;
+        }
+
+        49% {
+            background-color: #ccc;
+        }
+
+        50% {
+            background-color: transparent;
+        }
+
+        99% {
+            background-color: transparent;
+        }
+
+        100% {
+            background-color: #ccc;
+        }
+    }
+
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center" >
+  <!-- Avatar image in top left corner -->
+  <!-- <img src="Capture.JPG" style="width:100%"> -->
+  
+  
+
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black" style="margin-top:50%; ">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>SKILLS</p>
+  </a>
+  <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-trophy w3-xxlarge"></i>
+    <p>CERTIFICATE</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+  
+  
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home" style="padding-top:200px  !important">
+    <h1 class="w3-jumbo">PRATHMESH<span style="color: rgb(202, 199, 199);"> KALURGI.</span>  </h1>
+    <p>Software Engineer at Ford Motor Company</p>
+    <!-- <img src="/w3images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108"> -->
+  </header>
+  <div class="container">
+    <p>Coding is <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+</div>
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <!-- <h2 class="w3-text-light-grey">My Name</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Some modo consequat. t
+    </p> -->
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills<hr style="width:200px" class="w3-opacity"></h3>
+    <p class="w3-text-light-grey">HTML :</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div><br>
+    <p class="w3-text-light-grey">CSS :</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+    </div><br>
+    <p class="w3-text-light-grey">JavaScript :</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    <p class="w3-text-light-grey">Java :</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div><br>
+    <p class="w3-text-light-grey">Python :</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    <p class="w3-text-light-grey">C :</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:65%"></div>
+    </div><br>
+    <p class="w3-text-light-grey">C# :</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:65%"></div>
+    </div><br>
+    
+    <!-- <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">11+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Meetings
+      </div>
+    </div> -->
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> <a href="prathmesh_Resume.docx" download="Pratham_Resume">Download Resume</a> 
+    </button>
+    
+    <!-- Grid For project -->
+    <h3 class="w3-padding-16 w3-text-light-grey" id="projects">My Projects<hr style="width:200px" class="w3-opacity"></h3>
+    <div class="w3-row-padding" style="margin:0px -100px; margin-top: -80px;">
+        <div class="cont s--inactive">
+            <!-- cont inner start -->
+            <div class="cont__inner">
+              <!-- el start -->
+              <div class="el">
+                <div class="el__overflow">
+                  <div class="el__inner">
+                    <div class="el__bg"></div>
+                    <div class="el__preview-cont">
+                      <h2 class="el__heading" style="text-align: center;">App for online OPD appointment     <span style="font-size: small;">(click on me)</span></h2>
+                      
+                    </div>
+                    
+                    <div class="el__content">
+                      <div class="el__text">Online OPD appointment system</div>
+                      <div class="el__close-btn"></div>
+                      <div class="el__text-inner" >
+                        Android app web app for online OPD Appointment Proposed by All Indian Institute of Ayurveda, 
+                        Ministry of AYUSH, Smart India Hackathon. This project helps people to book the appointments 
+                        online and visit hospital on schedule time. Patient can also consult Doctor through telephonic.
+                        Patient can see the Doctors rating, feedbacks, experience and etc. and make appointment with good Doctor. 
+                        Similarly, there are more features. 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="el__index">
+                  <div class="el__index-back">1</div>
+                  <div class="el__index-front">
+                    <div class="el__index-overlay" data-index="1">1</div>
+                  </div>
+                </div>
+              </div>
+              <!-- el end -->
+              <!-- el start -->
+              <div class="el">
+                <div class="el__overflow">
+                  <div class="el__inner">
+                    <div class="el__bg"></div>
+                    <div class="el__preview-cont">
+                      <h2 class="el__heading" style="text-align: center;"> IOT Home Automation</h2>
+                    </div>
+                    <div class="el__content">
+                      <div class="el__text">IOT Home Automation</div>
+                      <div class="el__close-btn"></div>
+                      <div class="el__text-inner">
+                        Home appliance can be controlled through mobile app using internet.
+                        Cynosure can be controlled by voice, buttons and text through app. 
+                        Main feature of this project is, it can control normal application unlike google home and amazon alexa which only control smart application. 
+                        It can be controlled applications from any part of world.
+                       cynosure can also be used for security of home like unlocking main door through face detection or finger print. 
+                       Cynosure is also used for control music system. 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="el__index">
+                  <div class="el__index-back">2</div>
+                  <div class="el__index-front">
+                    <div class="el__index-overlay" data-index="2">2</div>
+                  </div>
+                </div>
+              </div>
+              <!-- el end -->
+              <!-- el start -->
+              <div class="el">
+                <div class="el__overflow">
+                  <div class="el__inner">
+                    <div class="el__bg"></div>
+                    <div class="el__preview-cont">
+                      <h2 class="el__heading" style="text-align: center;">Anomaly Detection using ML</h2>
+                    </div>
+                    <div class="el__content">
+                      <div class="el__text">Anomaly Detection using ML</div>
+                      <div class="el__close-btn"></div>
+                      <div class="el__text-inner">
+                        The project's main aim was to detect anomaly in the customer's inbound request. 
+                        It was indeed a three-month project and worked out by a team of four individuals.
+                         We were using a couple of classification, clustering and anomaly detection techniques in real time to overcome the problem. 
+                         We have assessed and adapted our strategies to tackle this problem. 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="el__index">
+                  <div class="el__index-back">3</div>
+                  <div class="el__index-front">
+                    <div class="el__index-overlay" data-index="3">3</div>
+                  </div>
+                </div>
+              </div>
+              <!-- el end -->
+              <!-- el start -->
+              <div class="el">
+                <div class="el__overflow">
+                  <div class="el__inner">
+                    <div class="el__bg"></div>
+                    <div class="el__preview-cont">
+                      <h2 class="el__heading" style="text-align: center;">Track !t Application</h2>
+                    </div>
+                    <div class="el__content">
+                      <div class="el__text">Track !t Application</div>
+                      <div class="el__close-btn"></div>
+                      <div class="el__text-inner">
+                        A dashboard for the track anchors where the track anchor can easily monitor the activities of the track. 
+                        It will show the statistics about the data as an overview, so that decision could be easily made regarding further action and plans.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="el__index">
+                  <div class="el__index-back">4</div>
+                  <div class="el__index-front">
+                    <div class="el__index-overlay" data-index="4">4</div>
+                  </div>
+                </div>
+              </div>
+              <!-- el end -->
+              <!-- el start -->
+              <div class="el">
+                <div class="el__overflow">
+                  <div class="el__inner">
+                    <div class="el__bg"></div>
+                    <div class="el__preview-cont">
+                      <h2 class="el__heading">Section 5</h2>
+                    </div>
+                    <div class="el__content">
+                      <div class="el__text">Whatever</div>
+                      <div class="el__close-btn"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="el__index">
+                  <div class="el__index-back">5</div>
+                  <div class="el__index-front">
+                    <div class="el__index-overlay" data-index="5">5</div>
+                  </div>
+                </div>
+              </div>
+              <!-- el end -->
+            </div>
+            <!-- cont inner end -->
+          </div>
+          
+        
+        
+    <!-- End Grids of projects -->
+    </div>
+    
+    <!-- Testimonials -->
+    <!-- <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+    <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+    <p>John Doe saved us from a web disaster.</p><br>
+    
+    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+    <p>No one is better than John Doe.</p> -->
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Certificates & Achivements.</h2>
+    <hr style="width:450px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <a href="https://www.sih.gov.in/SoftwarefinalResult2020"><img src="Smart India.PNG" style="width:100%; " ></a>
+        <a href="https://www.hackerrank.com/certificates/ad3efc97f442"><img src="hackerrank.png" style="width:100%"></a>
+        <a href="https://www.credly.com/badges/e5629a1d-fee9-4cff-bc72-b63e360e52d1?source=linked_in_profile" ><img src="ibm-blockchain-essentials-v2.png" style="width:100%"></a>
+      </div>
+
+      <div class="w3-half">
+        <img src="IndianExpressSIH.jpeg" style="width:100%">
+        <img src="InfosysCertificate.jpg" style="width:100%">
+        <a href="https://courses.cognitiveclass.ai/certificates/79c32c1f9bdf4b87bacef7523d00f0e6"><img src="IBM_Developer.jpg" style="width:100%"></a>
+        <img src="" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Karnataka, India</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 81*******9</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: prathameshkalburgi@gmail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <div >
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name" id="name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email" id="email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject" id="sub"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message" id="msg"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large"  onclick="sendEmial()">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </div>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i> -->
+    <a href="https://www.instagram.com/prathamesh_kalburgi/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <!-- <i class="fa fa-snapchat w3-hover-opacity"></i> -->
+    <!-- <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i> -->
+    <a href="https://www.linkedin.com/in/prathamesh-kalburgi-472a9b148/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <!-- <p class="w3-medium">Took Help from <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p> -->
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+<script>
+    // 
+    const typedTextSpan = document.querySelector(".typed-text");
+    const cursorSpan = document.querySelector(".cursor");
+
+    const textArray = ["hard", "fun", "a journey", "LIFE"];
+    const typingDelay = 100;
+    const erasingDelay = 100;
+    const newTextDelay = 1000; // Delay between current and next text
+    let textArrayIndex = 0;
+    let charIndex = 0;
+
+    function type() {
+        if (charIndex < textArray[textArrayIndex].length) {
+            if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+            typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+            charIndex++;
+            setTimeout(type, typingDelay);
+        }
+        else {
+            cursorSpan.classList.remove("typing");
+            setTimeout(erase, newTextDelay);
+        }
+    }
+
+    function erase() {
+        if (charIndex > 0) {
+            if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+            typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
+            charIndex--;
+            setTimeout(erase, erasingDelay);
+        }
+        else {
+            cursorSpan.classList.remove("typing");
+            textArrayIndex++;
+            if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+            setTimeout(type, typingDelay + 1100);
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
+        if (textArray.length) setTimeout(type, newTextDelay + 250);
+    });
+</script>
+
+
+<script>
+    var $cont = document.querySelector('.cont');
+    console.log($cont)
+var $elsArr = [].slice.call(document.querySelectorAll('.el'));
+var $closeBtnsArr = [].slice.call(document.querySelectorAll('.el__close-btn'));
+
+setTimeout(function() {
+$cont.classList.remove('s--inactive');
+}, 200);
+
+$elsArr.forEach(function($el) {
+$el.addEventListener('click', function() {
+  if (this.classList.contains('s--active')) return;
+  $cont.classList.add('s--el-active');
+  this.classList.add('s--active');
+});
+});
+
+$closeBtnsArr.forEach(function($btn) {
+$btn.addEventListener('click', function(e) {
+  e.stopPropagation();
+  $cont.classList.remove('s--el-active');
+  document.querySelector('.el.s--active').classList.remove('s--active');
+});
+});
+
+
+</script>
+
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script>
+  function sendEmial()
+  {
+    var name=document.getElementById("name").value;
+    console.log(name);
+    var email=document.getElementById("email").value;
+    var sub=document.getElementById("sub").value;
+    var msg=document.getElementById("msg").value;
+
+    Email.send({
+    Host : "smtp.gmail.com",
+    // Port:"587",
+    Username : "shridevikalburgi@gmail.com",
+    Password : "Praneet@519",
+    To : 'shridevikalburgi@gmail.com',
+    From : "shridevikalburgi@gmail.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+  }
+</script>
+</body>
+</html>
